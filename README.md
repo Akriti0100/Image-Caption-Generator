@@ -121,36 +121,30 @@ For details, you may also refer the <a href="https://github.com/Akriti0100/Human
  
 <img src="https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/WorkFlow.jpg" alt="Flowchart">
 
-</div>
+</div> -->
 
 <div align="justify">
  
 ## How To Use
 
-To clone and run this application, you’ll need `Git` installed on your computer. <br>
+To clone and run this application, you’ll need `Git` and `Django` installed on your computer. <br>
 From your command line:
 
 ```
 # Clone this repository
-$ git clone https://github.com/Akriti0100/Human-Action-Recognition.git
-
-# Create a virtual environment
-$ python3 -m venv <environment-name>
-
-# Activate the virtual environment
-$ <environment-name>/bin/activate
+$ git clone https://github.com/Akriti0100/Image-Caption-Generator.git
 
 # Install dependencies
-$ pip3 install -r requirements.txt
+$ pip3 install tensorflow keras numpy pillow tqdm
 
 # Go into the repository
-$ cd ActionRec
+$ cd captionGenerator
 
 # Run the app
 $ python manage.py runserver
 ```
 
-</div> -->
+</div>
 
 <div align="justify">
  
