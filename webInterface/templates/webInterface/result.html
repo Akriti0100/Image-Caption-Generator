@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Caption Generator</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+{% endblock %}
+</head>
+<body style="margin : 0px;">
+<div class="jss95" style="background-image: url({% static 'images/bgv3.jpg' %}); opacity:0.9">
+    <div class="jss1">
+        <div class="MuiGrid-root jss98  MuiGrid-container">
+            <div class="MuiGrid-root jss99  MuiGrid-item">
+                <div class="jss2">
+                    <h4 class="jss3 display-4 font-weight-bold" align="center" style="color:black;">IMAGE CAPTION GENERATOR</h4>
+                    <br>
+                </div>
+                <div class="jss2" align="center" style="color:black; font-family:'Times New Roman';">
+                    <br><br>
+                    <h5><b>Image Uploaded:</b></h5>
+                    <img src = '{{ img_data }}' height="200px" width="250px">
+                </div>
+                <br><br>
+                <div class="jss2" align="center">
+                    <div class="row" align="center">
+                        <p style="color:black; font-family:'Times New Roman';font-size:20px"><b>DESCRIPTION OF THE IMAGE: </b>
+                        <span id="textToConvert" style="color:red; font-family:'Times New Roman';">{{ caption }}</span></p>
+                    </div>
+                    <button id="start" class="btn btn-dark" style="color: white; font-face: bold;" align="center"> CONVERT CAPTION TO AUDIO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    let speech = new SpeechSynthesisUtterance();
+    speech.lang = "en";
+    document.querySelector("#start").addEventListener("click", () => {
+        speech.text = document.getElementById("textToConvert").innerHTML;
+        // console.log(speech.text);
+        window.speechSynthesis.speak(speech);
+    });
+</script>
+</html>
