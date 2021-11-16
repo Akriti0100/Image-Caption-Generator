@@ -18,7 +18,7 @@
 <div align="justify">
 <!-- # ?? Project overview -->
 
-> As humans, we can easily interpret using the brain what an image is about, but is the computer able to recognize what the image represents? However, with the advances in the field of Deep Learning techniques and the availability of huge datasets one can build models which deal with understanding and language description of the image. It is a challenging task since generating well-formed sentences requires both syntatic and semantic understanding of the language. This task is significantly harder than image classification or the object recognition tasks which have been well-reasearched.
+> As humans, we can easily interpret using the brain what an image is about, but is the computer able to recognize what the image represents? However, with the advances in the field of Deep Learning techniques and the availability of huge datasets one can build models which deal with understanding and language description of the image. It is a challenging task since generating well-formed sentences requires both syntatic and semantic understanding of the language. This task is significantly harder than image classification or the object recognition tasks which have been well-reasearched. In addition to this, the caption generated further undergoes text-to-speech conversion to assist the visually impaired people.
 </div>
 
 <p align="center">
@@ -90,21 +90,6 @@ There are potentially a lot of applications of caption generation :
  
 </div>
 
-<!--<div align="justify">-->
- 
-<!-- # ?? Project overview -->
-<!--## Project Scope
-
-> Everything today is moving towards digitalization. This platform designed will increase the efficiency of the hospitals and bring the specialists from the nooks and corners of the country available at a single platform. 
->
-> It will help overcome the challenge of increased drop rate in the regular patient visits and also help patients to consult the doctors in case of emergency situations by fixing an appointment without the need to visit the hospital. 
->
-> This would also help to overcome the problem of deficiency of human resources in the health sector which is prevalent at several levels such as between regions, between rural and urban areas and between private and public sectors. It's a platform to consult the health care specialists in the respective fields thus, bridging the gap between different sections of the society. 
->
-> Apart from these, it aims to reduce the challenges faced by people who are looking online for health information regarding diseases, diagnosis and different treatments.
- 
-</div>-->
-
 <!-- <div align="justify">
  
 ## Input-Output Screenshots
@@ -125,7 +110,7 @@ For details, you may also refer the <a href="https://github.com/Akriti0100/Human
 
 <div align="justify">
  
-## How To Use
+## HOW TO USE
 
 To clone and run this application, you’ll need `Git` and `Django` installed on your computer. <br>
 From your command line:
@@ -148,7 +133,7 @@ $ python manage.py runserver
 
 <div align="justify">
  
-## License
+## LICENSE
  
 This project is free and open-source software licensed under the `GPL-3.0 License`.
 
