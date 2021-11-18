@@ -28,8 +28,6 @@ def home(request):
             encoded_img = base64.b64encode(data.getvalue())
             decoded_img = encoded_img.decode('utf-8')
             img_data = f"data:image/jpeg;base64,{decoded_img}"
-            # audio_obj = gTTS(text=caption, lang='en', slow=False)
-            # audio_obj.save("caption.mp3")
 
             context = {
                 'caption' : caption,
