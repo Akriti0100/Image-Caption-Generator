@@ -1,6 +1,6 @@
   <h1 align="center">
   <br>
-<!--   <img src="https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/Jogging.gif" alt="Action" width="200"> -->
+  <img src="https://github.com/Akriti0100/Image-Caption-Generator/blob/main/Readme-images/Images.gif" alt="Action" width="200">
   <br>
   IMAGE CAPTION GENERATOR
   <br>
@@ -16,7 +16,6 @@
 [![License](https://img.shields.io/badge/license-%20GPL--3.0%20-blue)](https://github.com/Akriti0100/Antidote/blob/main/LICENSE.md)
 
 <div align="justify">
-<!-- # ?? Project overview -->
 
 > As humans, we can easily interpret using the brain what an image is about, but is the computer able to recognize what the image represents? However, with the advances in the field of Deep Learning techniques and the availability of huge datasets one can build models which deal with understanding and language description of the image. It is a challenging task since generating well-formed sentences requires both syntatic and semantic understanding of the language. This task is significantly harder than image classification or the object recognition tasks which have been well-reasearched. In addition to this, the caption generated further undergoes text-to-speech conversion to assist the visually impaired people.
 </div>
@@ -83,30 +82,27 @@ There are potentially a lot of applications of caption generation :
   - This type of model is referred to as the merge architecture where vectors resulting from both the encodings are merged 
     and processed by a Dense layer to make a final prediction.
 ```
-<!-- <img src="https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/cnn_model.png" alt="Model" width="500" height="600">
-<br><br>
-<p>The training and validation loss graph of the above sequential CNN model is as shown below:</p>
-<img src="https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/modelLoss.png" alt="Loss" width="500"> -->
- 
-</div>
-
-<!-- <div align="justify">
- 
-## Input-Output Screenshots
- 
-![screenshot](https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/Input-Output%20Screenshots.gif)
-  
-For details, you may also refer the <a href="https://github.com/Akriti0100/Human-Action-Recognition/tree/main/Input-Output%20Screenshots">`Input - Output Screenshots`</a> folder.
+<img src="https://github.com/Akriti0100/Image-Caption-Generator/blob/main/Readme-images/model.png" alt="Model" width="650" height="500">
 
 </div>
 
 <div align="justify">
  
-## Methodology Flowchart
+## INPUT-OUTPUT SCREENSHOTS
  
-<img src="https://github.com/Akriti0100/Human-Action-Recognition/blob/main/images/WorkFlow.jpg" alt="Flowchart">
+![screenshot](https://github.com/Akriti0100/Image-Caption-Generator/blob/main/Readme-images/Input-Output%20Screenshots.gif)
+  
+For details, you may also refer the <a href="https://github.com/Akriti0100/Image-Caption-Generator/tree/main/Input-Output%20Screenshots">`Input - Output Screenshots`</a> folder.
 
-</div> -->
+</div>
+
+<div align="justify">
+ 
+## METHODOLOGY FLOWCHART
+ 
+<img src="https://github.com/Akriti0100/Image-Caption-Generator/blob/main/Readme-images/Methodology%20Flowchart.jpg" alt="Flowchart" width="650" height="550">
+
+</div>
 
 <div align="justify">
  
