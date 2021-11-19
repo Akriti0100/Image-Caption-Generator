@@ -74,13 +74,14 @@ There are potentially a lot of applications of caption generation :
   - LSTM can carry out relevant information throughout the processing of inputs and with a forget gate, it discards non-relevant information.
 
 ```
-  - The model used here is an encoder-decoder model. Here, the encoded form of the image and the text is fed to the decoder.
-  - To encode the image features we make use of the Xception Model (a type of CNN model), pre-trained on ImageNet dataset
-    (Transfer Learning Technique).
-  - Further, the encoding of the text sequence is done in a separate layer after the input layer which is referred to as 
-    the embedding layer.
-  - This type of model is referred to as the merge architecture where vectors resulting from both the encodings are merged 
-    and processed by a Dense layer to make a final prediction.
+  - The model used here is an encoder-decoder model. Here, the encoded form of the image and the text
+    is fed to the decoder.
+  - To encode the image features we make use of the Xception Model (a type of CNN model), pre-trained
+    on ImageNet dataset(Transfer Learning Technique).
+  - Further, the encoding of the text sequence is done in a separate layer after the input layer which
+    is referred to as the embedding layer.
+  - This type of model is referred to as the merge architecture where vectors resulting from both the 
+    encodings are merged and processed by a Dense layer to make a final prediction.
 ```
 <img src="https://github.com/Akriti0100/Image-Caption-Generator/blob/main/Readme-images/model.png" alt="Model" width="650" height="500">
 
