@@ -5,8 +5,8 @@
   IMAGE CAPTION GENERATOR
   <br>
 </h1>
-<!-- 
-<h3 align="center">Visit YouTube for Detailed Working: <a href="https://youtu.be/a7N-8x5jXFI" target="_blank"> human-actions.com </a></h3> -->
+
+<h3 align="center">Visit YouTube for Detailed Working: <a href="https://youtu.be/H0tIVkg0qhg" target="_blank"> caption-generator.com </a></h3>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-3.8.1-blue)
@@ -17,7 +17,7 @@
 
 <div align="justify">
 
-> As humans, we can easily interpret using the brain what an image is about, but is the computer able to recognize what the image represents? However, with the advances in the field of Deep Learning techniques and the availability of huge datasets one can build models which deal with understanding and language description of the image. It is a challenging task since generating well-formed sentences requires both syntatic and semantic understanding of the language. This task is significantly harder than image classification or the object recognition tasks which have been well-reasearched. In addition to this, the caption generated further undergoes text-to-speech conversion to assist the visually impaired people.
+> As humans, we can easily interpret using the brain what an image is about, but is the computer able to recognize what the image represents? However, with the advances in the field of Deep Learning techniques and the availability of huge datasets one can build models which deal with understanding and language description of the image. It is a challenging task since generating well-formed sentences requires both syntatic and semantic understanding of the language. This task is significantly harder than image classification or the object recognition tasks which have been well-researched. In addition to this, the caption generated further undergoes text-to-speech conversion to assist the visually impaired people.
 </div>
 
 <p align="center">
